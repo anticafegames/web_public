@@ -1,6 +1,7 @@
-const node_ssh = require('node-ssh');
+const node_ssh = require('node-ssh')
 const fs = require('fs')
-const ssh = new node_ssh();
+const ssh = new node_ssh()
+const path = require('path')
 
 const config = {
   host: '84.201.189.251',
