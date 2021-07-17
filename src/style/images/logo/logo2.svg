@@ -1,0 +1,8 @@
+<svg width="410" height="90" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <text font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'League Gothic', sans-serif" font-size="47" id="svg_1" y="60.752205" x="19" stroke-width="0" stroke="#000" fill="#a3a3a3">АНТИ</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'League Gothic', sans-serif" font-size="47" id="svg_2" y="60.752205" x="256" stroke-width="0" stroke="#000" fill="#a3a3a3">КАФЕ</text>
+  <line transform="rotate(50 202,44.49999618530272) " stroke="#e85c5c" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_19" y2="88.999991" x2="202" y1="0" x1="202" stroke-width="8" fill="none"/>
+  <line transform="rotate(-50 202.00000000000003,44.49999618530274) " stroke="#e85c5c" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_20" y2="88.999991" x2="202" y1="0" x1="202" stroke-width="8" fill="none"/>
+ </g>
+</svg>

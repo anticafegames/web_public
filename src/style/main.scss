@@ -1,0 +1,52 @@
+body {
+    background-color: $body-background-color;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+
+    .flex-grow {
+        flex-grow: 1;
+    }
+}
+
+.user-img-s {
+    width: 35px;
+    height: 35px;
+}
+
+.responsive-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.nowrap-span {
+    white-space: nowrap;
+}
+
+.user-link {
+    cursor: pointer;
+    display: flex;
+
+    span {
+        margin: auto;
+        margin-left: 15px;
+        text-decoration: none;
+        color: initial;
+    }
+}
+
+.dropdown-content {
+    min-width: 110px;
+}
+
+@media only screen and (max-width: 1220px) {
+    body {overflow: auto;}
+}

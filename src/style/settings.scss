@@ -1,0 +1,9 @@
+.settings-modal {
+
+    .settings-video-container {
+        video {
+            width: 300px;
+            max-width: calc(100% - 20px);
+        }
+    }
+}

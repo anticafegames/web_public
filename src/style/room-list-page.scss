@@ -1,0 +1,115 @@
+.room-list-page {
+    padding: 20px;
+
+    .find-room-block {
+
+        display: flex;
+
+        .info-card {
+            width: 300px;
+
+            .info {
+                padding: 10px;
+            }
+
+            .create-room {
+                width: 100%;
+            }
+        }
+
+        .room-list {
+
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            flex-grow: 1;
+            margin-left: 20px;
+            max-height: 50vh;
+
+            .collection {
+                margin: 20px;
+                width: auto;
+                position: unset;
+                overflow: unset;
+
+                .collection-item {
+                    display: flex;
+                    padding: 0 10px;
+
+                    .td {
+                        display: flex;
+                        padding: 0 10px;
+                        margin: auto 0;
+
+                        .owner-link {
+                            cursor: pointer;
+                            display: flex;
+                            margin-top: -2px;
+
+                            span {
+                                margin: auto;
+                                margin-left: 15px;
+                                text-decoration: none;
+                                color: initial;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+}
+
+.modal-window.create-room-modal {
+
+    .modal {
+        height: 270px;
+        max-width: 500px;
+    }
+
+    .create-room-form {
+        .custom-checkbox {
+            margin: 10px 0 15px;
+        }
+    }
+
+}
+
+.modal-window.room-join-modal {
+
+    .modal {
+        height: 200px;
+        max-width: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 1220px) { 
+
+    .room-list-page {
+    
+        .find-room-block { 
+            flex-direction: column;
+
+            .info-card {
+                width: 100%;
+            }
+
+            .room-list {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) { 
+
+    .owner-link {
+        span {
+            display: none;
+        }
+    }
+
+}

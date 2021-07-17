@@ -1,0 +1,21 @@
+.room-page {
+
+    display: flex;
+    height: calc(100vh - 50px);
+
+    .video-part {
+        flex-grow: 1;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .room-page  {
+        flex-direction: column;
+
+        .chat-part{
+            min-height: 200px;
+            max-height: 500px;
+            margin: auto;
+        }
+    }
+}

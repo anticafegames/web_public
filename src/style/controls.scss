@@ -1,0 +1,19 @@
+.dropdown-actions {
+
+    position: relative;
+    cursor: pointer;
+
+    .dropdown-actions-content {
+        display: flex;
+    }
+
+    .dropdown-content.dropdown-actions-list {
+        position: absolute;
+        display: block;
+        opacity: 1;
+        top: auto;
+        left: auto;
+        bottom: -62px;
+        right: 0;
+    }
+}

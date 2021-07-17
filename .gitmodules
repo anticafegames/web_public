@@ -1,0 +1,6 @@
+[submodule "src/core"]
+	path = src/core
+	url = https://github.com/anticafegames/core
+[submodule "private-keys"]
+	path = private-keys
+	url = https://github.com/anticafegames/private-keys

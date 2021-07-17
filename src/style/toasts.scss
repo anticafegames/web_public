@@ -1,0 +1,25 @@
+.Toastify__toast--info {
+    background: #39444e;
+}
+
+.toast-can-join-room {
+
+    .message-block {
+
+        .user-icon {
+            flex-shrink: 0;
+        }
+
+        span {
+            color:white;
+        }
+    }
+
+    .buttons-block {
+        margin-top: 10px;
+
+        .btn {
+            margin-right: 10px;
+        }
+    }
+}

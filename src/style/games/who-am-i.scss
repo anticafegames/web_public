@@ -1,0 +1,105 @@
+.game.who-am-i {
+
+    .video-container {
+
+        .video-hover-menu-holder {
+
+            .name-container {
+                position: absolute;
+                padding: 0 6px 3px;
+                right: 10px;
+                bottom: 13px;
+                border-radius: 50px;
+                overflow: hidden;
+                max-width: calc(100% - 50px);
+                color: #a3a3a3;
+                background-color: #212529;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                cursor: pointer;
+            }
+
+            .number-container {
+                cursor: default;
+                position: absolute;
+                border-radius: 50px;
+                color: #a3a3a3;
+                background-color: #212529;
+                bottom: 13px;
+                left: 10px;
+                padding: 1.5px 8px 2px;
+            }
+
+            .show-name-button-container {
+
+                position: absolute;
+                top: 10px;
+                right: 15px;
+                cursor: pointer;
+
+                .icon {
+                    font-size: 30px;
+                }
+            }
+
+            .video-hover-menu-bottom {
+                width: calc(100% - 45px);
+                right: 0;
+                top: 0;
+                bottom: auto;
+                left: auto;
+
+                .mic-icon {
+                    margin-top: 5px;
+                }
+            }
+        }
+
+    }
+}
+
+.who-am-i-game-board {
+
+    .collection {
+
+        .user {
+            display: flex;
+            min-height: 60px;
+
+            .user-collection-content {
+                margin: auto;
+                flex-grow: 1;
+            }
+
+            .name-container {
+
+                .name.filled {
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+
+    .select-name-input-container {
+        .input-container {
+            display: flex;
+
+            .input-icon {
+                flex-grow: 1;
+            }
+            .btn {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .modal-footer {
+        .btn {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+
+}
